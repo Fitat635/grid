@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:aliceblue;
+}
+.container{
+    width: 500px;
+    height: 300px;
+    background-color: plum;
+    display:grid;
+    grid-template-rows: 50px 50px 50px 50px;
+    grid-template-columns: 100px 100px 100px 100px;
+    gap: 5px;
+}
+.div1{
+    background-color: blueviolet;
+    grid-column-start: 1;
+    grid-column-end: 2 ;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.div2{
+    background-color: blueviolet;
+    grid-column-start: ;
+    grid-column-end: ; 
+}
+.div3{
+    background-color: blueviolet;
+    grid-column-start:3 ;
+    grid-column-end: 5; 
+}
+.div4{
+    background-color: blueviolet;
+    grid-row-start:2 ;
+    grid-row-end: 4;
+    grid-column-start: 3 ;
+    grid-column-end: 4 ;
+}
+.div5{
+    background-color: blueviolet;
+    grid-row-start:2 ;
+    grid-row-end: 3;
+    grid-column-start: 2 ;
+    grid-column-end: 3 ;
+  
+}
+.div6{
+    background-color: blueviolet;
+}
+.div7{
+    background-color: blueviolet;
+}
+.div8{
+    background-color: blueviolet;
+    grid-row-start:3 ;
+    grid-row-end: 5;
+    grid-column-start: 2 ;
+    grid-column-end: 3 ;
+}
+.div9{
+    background-color: blueviolet;
+}
+.div10{
+    background-color: blueviolet;
+   
+}
+.div11{
+    background-color: blueviolet;
+    grid-column-start:3 ;
+    grid-column-end:5 ;
+}
+
+
+
+
